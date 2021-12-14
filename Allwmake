@@ -1,0 +1,6 @@
+source etc/bashrc
+
+WITH_BEAR=$1
+
+./src/Allwmake $WITH_BEAR
+./applications/Allwmake $WITH_BEAR
